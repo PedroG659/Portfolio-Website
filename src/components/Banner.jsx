@@ -46,7 +46,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Bem-vindo</span>
-                        <h1>(`Olá, sou webdecoded`)<span className="wrap">{text}</span></h1>
+                        <h1>Olá, sou <span className="wrap">{text}</span></h1>
                         <p>Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição tipográfica. Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor desconhecido pegou uma prova de tipos e a misturou para fazer um livro de espécimes de tipos.</p>
                         <button onClick={() => console.log('connect')}>Vamos nos conectar <ArrowRightCircle size={25}/> </button>
                     </Col>
